@@ -1,1 +1,125 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+		body{
+		background-color: #EAD2AC;
+		}
+		</style>
+		<title>
+		Можно мне 25?
+		</title>
+	</head>
+	<body>
+	<font size="3" color="504442" face="Calibri">
+	<p><b>Студент:</b> Андрей Ситов </p>
+	<p><b>Группа:</b> ИДМ-18-02 </p>
+	<h2 class="nw">Список лабораторных работ</h2>
+			<hr/>
+			<div class = "post">
+				<h2 id="1lab">Лабораторная работа №1 "Экосистема разработки программ с открытым кодом"</h2>
+				<p>Создание персональной страницы-отчета на github и работа с git.</p>
+				<p>1. Пройти регистрацию на сайте GitHub. </p>
+				<p>2. Получить доступ к репозиторию. </p>
+				<p>3. Создать личную страницу. </p>
+				<p>4. Создать <a href="index.html">персональную веб страницу-отчет</a> с использованием html.</p>
+				<p>5. Загрузить персональную веб страницу-отчет в репозиторий ИДМ-18 по курсу "Интернет-технологии" на GitHub. </p>
+			</div>
+			<hr/>	
+			<div class = "post">
+				<h2 id="2lab">Лабораторная работа №2 "Разработка простого веб-приложения"</h2>
+				<p>Проектирование и разработка индивидуального или коллективного веб-приложения с использованием html,css,js.</p>
+				<p>1. Собрать команду для разработки веб-приложения (SPA) и распределить роли. Приложение создано командой "Designated Coding Streets", роли данной команды можно увидеть в таблице "Кондуит": </p>
+				<cite><a href="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1757923969">Список ролей и команд</a></cite>
+				<p>2. Сделать разметку страницы по макету. Макет страницы. Исходный код на index.html. </p>
+				<p>3. Прописать стили страницы. Исходный код на css. </p>
+				<p>4. Прописать JavaScript функционал. Исходный код на JavaScript. </p>
+				<cite>Результат:<a href="https://itsallmail.github.io/testdungeon/"> готовый проект, размещенный на одном из репозиториев команды.</a></cite>
+			</div>
+			<hr>
+			<div class = "post">
+				<h2 id="2lab">Лабораторная работа №3: "Настройка локальной сети передачи данных."</h2>
+				<p>Настройка коммутаторов и маршрутизаторов.</p>
+				<p>Цель данной работы – ознакомиться с принципами работы компьютерных сетей, базовой настройкой сетевого оборудования и статической маршрутизацией.</p>
+				 <b><p><center class="lab">Расчет диапазонов подсетей.</center></p></b>
+			<p>
+			<table border="3" align="center">
+			<tr>
+				<td rowspan="2"></td><td><b>LAN A</b></td><td><b>LAN B</b></td><td><b>LAN C</b></td>
+			</tr>
+			<tr>
+				<td>137</td><td>30</td><td>37</td>
+			</tr>
+			<tr>
+				<td><b>Префиксная маска</b></td><td>/26</td><td>/25</td><td>/22</td>
+			</tr>
+			<tr>
+				<td><b>Адрес подсети</b></td><td>192.168.7.0</td><td>172.16.5.0</td><td>10.10.7.0</td>
+			</tr>
+			<tr>
+				<td><b>Минимальный адрес</b></td><td>192.168.7.1</td><td>172.16.5.1</td><td>10.10.5.1</td>
+			</tr>
+			<tr>
+				<td><b>Максимальный адрес</b></td><td>192.168.7.62</td><td>172.16.5.126</td><td>10.10.9.254</td>
+			</tr>
+			<tr>
+				<td><b>Broadcast</b></td><td>192.168.7.63</td><td>172.16.5.127</td><td>10.10.9.255</td>
+			</tr>
+	                </table>
+			</p>
+		        <b><p><center>Адреса устройств.</center></p></b>
+			<p>
+		        <table border="3" align="center">
+			<tr>
+				<td><b>Устройство</b></td><td><b>IP</b></td><td><b>Маска</b></td><td><b>Шлюз по умолчанию</b></td>
+			</tr>
+			<tr>
+				<td>PC0</td><td>192.168.7.12</td><td>255.255.255.192</td><td>192.168.7.1</td>
+			</tr>
+			<tr>
+				<td>PC1</td><td>192.168.7.11</td><td>255.255.255.192</td><td>192.168.7.1</td>
+			</tr>
+			<tr>
+				<td>PC2</td><td>172.16.7.126</td><td>255.255.255.128</td><td>172.16.7.1</td>
+			</tr>
+			<tr>
+				<td>PC3</td><td>172.16.7.125</td><td>255.255.255.128</td><td>172.16.7.1</td>
+			</tr>
+			<tr>
+				<td>PC4</td><td>10.10.7.254</td><td>255.255.252.0</td><td>10.10.7.1</td>
+			</tr>
+			<tr>
+				<td>Router0 FastEthernet 0/0</td><td>192.168.7.1</td><td>255.255.255.192</td><td>–</td>
+			</tr>
+			<tr>
+			        <td>Router0 FastEthernet 1/0</td><td>172.16.7.1</td><td>255.255.255.128</td><td>–</td>
+			</tr>
+			<tr>
+				<td>Router0 FastEthernet 6/0</td><td>15.15.7.1</td><td>255.255.255.252</td><td>–</td>
+			</tr>
+			<tr>
+				<td>Router12 FastEthernet 0/0</td><td>15.15.7.2</td><td>255.255.255.252</td><td>–</td>
+			</tr>
+			<tr>
+				<td>Router12 FastEthernet 1/0</td><td>10.10.7.1</td><td>255.255.252.0</td><td>–</td>
+			</tr>
+			</table>
+			</p>
+                                 <b><p><center>1. Разместить два компьютера и коммутатор, настроить между ними адресацию.</center></p><b>
+				 <p align="center"><img src="images/1.png" width="20%" height="20%" /></p>
+				 <b><p><center>2. Добавить еще один коммутатор с двумя компьютерами и маршрутизаторы. Провести настройку.</center></p><b>
+				 <p align="center"><img src="images/2.png" width="30%" height="30%" /></p>
+				 <b><p><center>3. Настроить статическую маршрутизацию при помощи команды: ip route [сеть назначения] [маска] [маршрут]</center></p><b>
+				 <b><p><center>4. Установить баннер на сетевое оборудование: banner motd [баннер]</center></p><b>
+                		</ul>
+			</div>
+		<hr/>
+		<h3 id="L4" align=center>Подготовка к экзамену</h3>
+												<p><a href ="https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1373642912&range=AB54">Результат теста "Инновации": 64%</a></p>
+												<p><a href = "https://docs.google.com/spreadsheets/d/1iZ7gLvnKfSx3TUTjl_-gCtDQ66B1JlkO4WZaMj6R0sw/edit#gid=1682100065&range=AD54">Результат теста "Проекты":66%</a></p>
+												<p><a href = "https://github.com/stankin/inet-2018/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82-25">Ответ на билет 25(вопрос №2)</a></p>
+	</font>
+	</body>
+</html>
